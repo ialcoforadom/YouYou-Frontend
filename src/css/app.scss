@@ -1,0 +1,98 @@
+// app global css in SCSS form
+.body--light {
+  background: $grayBackgroundPrimary;
+}
+.body--light-login {
+  background: #eba29b;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.q-input {
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 20px;
+}
+.q-field__native {
+  font-weight: 300;
+}
+.label {
+  font-weight: 300;
+  font-size: 15px;
+}
+.q-btn {
+  border-radius: 400px;
+}
+.default-card-bg-color {
+  background-color: #fcfcfc;
+}
+
+.default-bg-color {
+  background-color: #dfe1e4;
+}
+.table {
+  font-size: 100px;
+}
+.default-title {
+  font-size: 1.5rem;
+  color: #333333;
+  font-weight: bold;
+}
+
+.menu-default-bg-color {
+  background-color: #eba29b;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.gap-1 {
+  gap: 5px;
+}
+.gap-2 {
+  gap: 8px;
+}
+
+.gap-3 {
+  gap: 20px;
+}
+.default-table {
+  th {
+    color: white;
+    background-color: $primary;
+  }
+  tr {
+    height: 30px !important;
+  }
+}
+
+.default-search-input {
+  .q-field__control:before {
+    border-radius: 20px 0 0 20px;
+  }
+  &.q-field--outlined .q-field__control:after {
+    border-radius: 20px 0 0 20px;
+  }
+}
+.default-login-input-field-wrapper {
+  text-align: center;
+  .q-field__control:before {
+    border-radius: 30px;
+    background-color: #eba29b;
+  }
+  &.q-field--outlined .q-field__control:after {
+    border-radius: 30px;
+    background-color: #eba29b;
+  }
+}
+@font-face {
+  font-family: 'Stretch';
+  src: url('src/assets/fonts/StretchPro.woff') format('woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('src/assets/fonts/Montserrat-VariableFont_wght.woff') format('woff');
+  font-weight: normal;
+}

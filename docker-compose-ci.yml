@@ -1,0 +1,13 @@
+# for local development
+version: '3.7'
+services:
+  servis-frontend:
+    build:
+      context: .
+      target: 'develop-stage'
+    container_name: servis-app-franqueado-frontend
+    ports:
+      - '5080:8080'
+    volumes:
+      - '.:/app'
+    command: /bin/sh -c "yarn && quasar dev"
